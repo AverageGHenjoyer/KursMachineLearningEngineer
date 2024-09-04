@@ -7,7 +7,7 @@ venv/
 .ipynb_checkpoints/
 __pycache__/
 *.py[cod]
-*.ipynb
+
 
 # Ignoruj pliki specyficzne dla systemu operacyjnego
 .DS_Store
