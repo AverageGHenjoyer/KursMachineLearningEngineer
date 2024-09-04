@@ -1,0 +1,42 @@
+# Ignoruj foldery wirtualnych środowisk Python
+venv/
+.env/
+.venv/
+
+# Ignoruj pliki i foldery specyficzne dla Jupyter Notebook
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.ipynb
+
+# Ignoruj pliki specyficzne dla systemu operacyjnego
+.DS_Store
+Thumbs.db
+
+# Ignoruj pliki i foldery generowane przez PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignoruj logi, bazy danych, pliki tymczasowe oraz inne dane wyjściowe
+*.log
+*.sqlite3
+*.csv
+*.h5
+*.xlsx
+*.xls
+*.pkl
+
+# Ignoruj pliki wynikowe (np. pliki z modelami, checkpointy, itp.)
+*.model
+*.ckpt
+*.hdf5
+*.weights
+*.onnx
+*.joblib
+
+# Ignoruj foldery specyficzne dla systemów kontroli wersji
+.svn/
+.hg/
+.git/
